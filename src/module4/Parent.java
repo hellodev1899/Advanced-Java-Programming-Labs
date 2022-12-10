@@ -4,7 +4,7 @@ public class Parent {
     int p;
 
     public Parent() {
-        System.out.printf("\nParent Constructor");
+        System.out.println("Parent Constructor");
     }
 
     public Parent(int p) {
@@ -16,12 +16,12 @@ public class Parent {
     }
 
     public void setP(int p) {
-        System.out.printf("setting p in parent");
+        System.out.println("setting p in parent");
         this.p = p;
     }
 
     public void printValue()
     {
-        System.out.printf("\nParent Method");
+        System.out.println("Parent Method");
     }
 }

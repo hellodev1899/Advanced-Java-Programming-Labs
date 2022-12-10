@@ -4,7 +4,7 @@ public class Child extends Parent {
     int c;
 
     public Child() {
-        System.out.printf("\nChild Constructor");
+        System.out.println("Child Constructor");
     }
 
     public int getC() {
